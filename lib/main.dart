@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:what_with_my_car/ui/add_problem.dart';
 import 'package:what_with_my_car/ui/reg_page.dart';
 import 'blocs/authBloc/auth_bloc.dart';
 import 'blocs/regBloc/reg_bloc.dart';
@@ -45,6 +46,7 @@ class MyApp extends StatelessWidget {
             "news": (context) => const News(),
             "nav_bar": (context) => const Nav_bar(),
             "reg": (context) => const UserRegistration(),
+            "add": (context) =>  AddProblem(),
 
 
           },
